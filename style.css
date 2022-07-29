@@ -1,0 +1,289 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #3D087B ;
+    width: 1500px;
+    height: 680px;
+    border: none;
+}
+.hey{
+    padding-left: 195px;
+    padding-top: 40px;
+}
+
+#bts{
+    position: relative;
+    left: 200px;
+    top: 360px;
+    width: 523px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #8E53F0;
+    text-align: center;
+    padding-top: 20px;
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.jr{
+    position: absolute;
+    top: 560px;
+    left: 200px;
+    background: linear-gradient(#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+    border-radius: 3px;
+    width: 230px;
+    height: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 12px;
+    color: #FFFFFF;
+    
+}
+.jr:hover{
+    background: linear-gradient(113deg
+    #F1A7C5 0%,
+    #FC5EFF 40%, 
+    #CB52F8 81%,
+    #6E54EC 100%); 
+}
+  .jr::before{
+      content: "SET ALARM";
+  }
+  .jr:hover::after{
+      content: "PARTY TIME !!";
+     
+  }
+  
+  .jr:hover::before{
+      display: none;
+  }
+
+#ntr{
+    position: absolute;
+    left: 740px;
+    top: 180px;
+    width: 430px; 
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    color: #8E53F0;
+    padding-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+.time-alarm{
+    position: absolute;
+    top: 135px;
+    left: 200px;
+    width: 520px;
+    height: 335px;
+    background-color: #ffffff;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+}
+.mrng{
+position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 34px;
+   height: 34px;
+}
+.day1{
+    position: absolute;
+    top: 25px;
+    left: 140px;
+    color: #5F0089;
+}
+.time1{
+    position: absolute;
+    top: 25px;
+    right: 54px;
+}
+.afternoon{
+    position: absolute;
+    top: 102px;
+    left: 25px;
+    width: 34px;
+    height: 34px;
+}
+.day2{
+    position: absolute;
+    top: 105px;
+    left: 140px;
+    color: #5F0089;
+}
+.time2{
+    position: absolute;
+    top: 102px;
+    right: 54px;
+}
+.evening{
+    position: absolute;
+    top: 200px;
+    left: 25px;
+    width: 34px;
+    height: 34px;
+}
+.day3{
+    position: absolute;
+    top: 203px;
+    left: 140px;
+    color: #5F0089;
+}
+.time3{
+    position: absolute;
+    top: 200px;
+    right: 54px;
+}
+.night{
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    color: #5F0089;
+}
+.day4{
+    position: absolute;
+    bottom: 25px;
+    left: 140px;
+    color: #5F0089;
+}
+.time4{
+    position: absolute;
+    bottom: 20px;
+    right: 54px;
+}
+.a3{
+    position: absolute;
+    left: 50px;
+}
+
+.timing{
+    position: absolute;
+    top: 563px;
+left: 449px;
+width: 230px;
+height: 92px;
+border-radius: 10px;
+color: #F25CFE;
+background-color: #6E54EC;
+text-align: start;
+}
+
+.rocket{
+position: absolute;
+left: 740px;
+top: 50px;
+width: 400px;
+height: 100px;
+background-color:#FFFFFF;
+border-radius: 10px;
+z-index:3;
+display: flex;
+}
+.james{
+    position: absolute;
+    left:780px ;
+    top: 80px;
+    width:300px ;
+    height: 80px;
+    background-color: #6E54EC;
+    border-radius: 10px;
+    z-index: 2;
+
+}
+.jerry{
+    position: absolute;
+    left:800px ;
+    top: 85px;
+    width:250px ;
+    height: 80px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    z-index: 1;
+
+}
+.dev{
+    position: absolute;
+    left: 270px;
+    top: 38px;  
+    color: #5F0089;
+}
+.den{
+text-align: center;
+margin-left: 20px;
+margin-top: 40px;
+    color: #6E54EC;
+}
+.clk-time{
+    width: 400px;
+   height: 100px;
+   background-color: #ffffff;
+   position: absolute;
+   top: 48px;
+  left: 730px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #6E54EC;
+  z-index: 3;
+  text-align: center;
+}
+#hour{
+    background-color: #F1A7C5;
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50px;
+  height: 60px;
+    
+}
+#min{
+    background-color: #F1A7C5;
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50px;
+  height: 60px;
+    
+}
+#sec{
+    background-color: #F1A7C5;
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50px;
+  height: 60px;
+    
+}
+#boss{
+    background: linear-gradient(#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50px;
+  height: 60px;
+    
+}
+
+.k{
+    width: 100%;
+    height: 36px;
+    border-left:2px solid gray;
+    margin-left: 40px;
+    margin-top: 55px;
+}
+#barry{
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 400px; 
+    margin-left: 49%;
+    margin-top: 150px;
+    border-radius: 20px;
+}
